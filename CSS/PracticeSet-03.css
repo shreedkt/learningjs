@@ -1,0 +1,15 @@
+.class-btn{
+  background:greenyellow;
+  border: none;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.wish-btn{
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+}

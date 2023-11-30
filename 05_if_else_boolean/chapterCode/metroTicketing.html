@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Metro Ticketing</title>
+</head>
+<body style="text-align: center;">
+  <h1>Welcome To Delhi Metro</h1>
+  <h3>Ticketing Discount Are Listed Below</h3>
+  <p style="white-space: pre">    * Females get 50% off
+    * kid under 5 year of age are free
+    * kid up to 8 years have half ticket 
+    * people over 65 year of age only pay 30% of the ticket</p>
+
+    <button> Females </button>
+    <button> Kid </button>
+    <button> Younger Kid </button>
+    <button> Senior citizens </button>
+    <button> Normal ticket </button>
+
+  <!--
+    Give Discount based on age, Gender, for Metro Ticket
+    - Females get 50% off
+    -kid under 5 year of age are free
+    -kid up to 8 years have half ticket 
+    -people over 65 year of age only pay 30% of the ticket
+    - in the case of multiple discounts max discount will apply.
+  -->
+    <script>
+      let age = 4;
+      let gender = 'female'; // male & Female
+      let finalDiscount ;
+
+      if(age <=5){
+        finalDiscount = 100;
+      }else if (gender === 'female' || age <=8){
+        finalDiscount = 50;
+      }  else if (age >=65){
+        finalDiscount = 30;
+      } else {
+        finalDiscount = 0;
+      }
+      console.log(`Your Final Discount is ${finalDiscount}`)
+    </script>
+</body>
+</html>

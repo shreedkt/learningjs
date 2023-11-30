@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Love Game</title>
+</head>
+
+<body>
+  <script>
+    prompt("What is Your Name?");
+    prompt("What is there Name?");
+    var loveScore = Math.random() * 100;
+    loveScore = Math.floor(loveScore) + 1;
+    if (loveScore > 70) {
+      alert("Your Love Score is " + loveScore + " % "+ "You Both Love Like Radhe Krishna");
+    } if (loveScore > 30 && loveScore <= 70) {
+      alert("your love Score is" + loveScore + "%"+`You Both Are Friend's`);
+    }
+    else {
+      if (loveScore <= 30) {
+        alert("Your Love Score is " + loveScore + "%" + "You Go Together like Oil and Water");
+      }
+
+    }
+  </script>
+</body>
+
+</html>

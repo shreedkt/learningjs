@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PracticeSetOfVariable</title>
+</head>
+<body>
+  <p id="name_display"></p>
+  <script>
+    const myName = `Deepak Kumar Tiwari`;
+    document.querySelector('#name_display').innerText =myName;
+    const GSTpercent = 18;
+    let cartValue = Math.round(((15599-(10/100*15599))-272+(2499-(41/100*2499))-29+25+20)*(100+GSTpercent)/100);
+    console.log(cartValue);
+    /* Here eval tag which comes from JS is used for string treat as number   */
+    console.log(eval('45+10*80/2'))
+  </script>
+</body>
+</html>

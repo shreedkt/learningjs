@@ -1,0 +1,29 @@
+    .btn1{
+      color: #50C878;
+      border: none;
+      text-transform: uppercase;
+      border-radius: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    .btn2{
+      border: 2px solid black;
+      text-transform: uppercase;
+      border-radius: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      
+    }
+    .btn3{
+      color: #38b662;
+      text-transform: uppercase;
+      border-radius: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
